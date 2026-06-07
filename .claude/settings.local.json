@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter --version)",
+      "Bash(flutter pub *)",
+      "Bash(flutter build *)",
+      "Bash(flutter doctor *)",
+      "Read(//Users/shomirsaidov/Library/Android/sdk/licenses/**)",
+      "Read(//Users/shomirsaidov/Library/Android/sdk/build-tools/**)",
+      "Read(//Users/shomirsaidov/Library/Android/sdk/platforms/**)",
+      "Bash(grep -E \"\\\\.\\(jar|aar|pom|zip\\)$\")",
+      "Bash(ps -p 91871 91912 93043 -o pid,stat,etime,%cpu,rss,command)",
+      "Bash(ps -o pid,etime,%cpu,rss,stat,command -p 91871 91912 93043 93099 93100)",
+      "Bash(flutter analyze *)"
+    ]
+  }
+}
